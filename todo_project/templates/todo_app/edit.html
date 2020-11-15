@@ -1,14 +1,14 @@
 {% extends "todo_app/base.html" %}
 
 {% block title %}
-TODO APP - Yeni Görev Ekle
+TODO APP - Görevi Düzenle
 {% endblock title %}
 
 {% block content %}
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4"><center>Yeni Görev Ekle!</center></h1>
-    <p class="lead"><center>İş detaylarına dair bilgileri bu bölümden kaydedebilirsin.</center></p>
+    <h1 class="display-4"><center>Görevi Düzenle!</center></h1>
+    <p class="lead"><center>İş detaylarına dair bilgileri bu bölümden düzenleyebilirsin.</center></p>
 
     <form method="POST">
       {% csrf_token %}
